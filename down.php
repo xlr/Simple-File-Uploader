@@ -30,7 +30,8 @@ $n=$_SERVER['SCRIPT_NAME'];
 $referer="http://yoursite.com/down.php";
 $thisfile= "http://$s$n";
 
-if ($referer!=$thisfile){
+if ($referer!=$thisfile)
+{
 	echo "<center><big>Homepage: <a href=\"$referer\">$referer</a></big><br><hr><br><br></center>";
 }
 else {
@@ -40,6 +41,6 @@ else {
 	Header ( "Content-Length: ".filesize($total));
 	Header( "Content-Disposition: attachment; filename=$filenames");
 	readfile($total);
-}
-}
+     }
+    }
 ?>
