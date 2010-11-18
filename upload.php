@@ -3,7 +3,6 @@ include('con.php');
 
 $url = "files";
 
-
 if($_FILES['FILE']['name']){
 
 	if(is_uploaded_file($_FILES['FILE']['tmp_name'])) {
@@ -30,5 +29,4 @@ if($_FILES['FILE']['name']){
     else { echo'ошибка при загрузке';}
                              }
 else { echo 'какой файл то?';}
-
 ?>
