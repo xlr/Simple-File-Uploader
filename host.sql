@@ -1,12 +1,3 @@
--- phpMyAdmin SQL Dump
--- version 3.3.4
--- http://www.phpmyadmin.net
---
--- Хост: localhost
--- Время создания: Ноя 17 2010 г., 23:02
--- Версия сервера: 5.1.48
--- Версия PHP: 5.3.2
-
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 
 
