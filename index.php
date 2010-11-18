@@ -1,6 +1,4 @@
-<?php
-include('con.php');
-?>
+<?php include('con.php');?>
 <html>
 <head>
 	<title>File uploader</title>
