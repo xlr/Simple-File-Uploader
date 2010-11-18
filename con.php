@@ -1,4 +1,5 @@
 <?php
+
 $dbh='localhost'; //db host
 $dbn='your'; //db name
 $dbu='your'; //db user
